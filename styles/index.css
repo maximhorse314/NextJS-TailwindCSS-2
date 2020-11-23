@@ -1,0 +1,10 @@
+/* purgecss start ignore */
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+@tailwind components;
+/* purgecss end ignore */
+
+/* Tailwind Ults */
+@tailwind utilities;
