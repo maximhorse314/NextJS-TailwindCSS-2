@@ -65,7 +65,7 @@ export default function IndexPage({ filters }) {
 }
 
 export const getServerSideProps = async (_) => {
-  const res = await fetch('https://next-js-tailwind-css-2-4.vercel.app/api/filter');
+  const res = await fetch('https://next-js-tailwind-css-2-3.vercel.app/api/filter');
   const data = await res.json();
   if (!data) {
     return {
