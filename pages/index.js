@@ -65,7 +65,7 @@ export default function IndexPage({ filters }) {
 }
 
 export const getServerSideProps = async (_) => {
-  const res = await fetch(`${process.env.NEXT_BASE_URL}/api/filter`);
+  const res = await fetch(`http://localhost:3000/api/filter`);
   const data = await res.json();
   if (!data) {
     return {
