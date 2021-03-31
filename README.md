@@ -21,3 +21,4 @@
 - supports searching by company name
 - supports filtering by all items on the side navigation (only one filter at a time)
 - The filter api data is served using server side rendering, subsequent qpi call to jobs is done using the useEffect react hook
+//
